@@ -1,0 +1,23 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+dist/
+target/
+*.class
+*.log
+
+# Python artifacts if a later module uses Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
